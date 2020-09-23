@@ -10,7 +10,5 @@ class Backer
   end
   
   def back_project(project_name)
-    if 
     @backed_projects << Project.new(project_name)
-  end
 end
